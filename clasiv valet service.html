@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valet Parking Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <div class="logo">
+                    <h1>CLASIC</h1>
+                </div>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <h1>CLASIC VALET SERVICE</h1>
+        <h2>Welcome to Our Valet Parking Service</h2>
+        <p>Our efforts for your comfort. We provide the best valet parking experience.</p>
+        <button onclick="showContactForm()">Book Now</button>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="cover-pic">
+            <img src="service image">
+        </div>
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Event Parking</h3>
+            <p>Professional valet parking for your events.</p>
+        </div>
+        <div class="service">
+            <h3>Restaurant Valet</h3>
+            <p>Convenient valet parking for restaurant guests.</p>
+        </div>
+        <div class="service">
+            <h3>Hotel Valet</h3>
+            <p>Luxury valet parking services for hotels.</p>
+        </div>
+        <div class="line"></div>
+    </section>
+    <section id="contact" class="contact-section">
+        <h2>Contact Us:</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="date">Event date:</label>
+            <input type="date" id="Event" name="Event" required>
+            <label for="Event Name">Event Name</label>
+            <input type="Event Name" id="Event Name" name="Event Name">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required>optional</textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <div class="adres">
+        <h3>Your in Right time, Right place, Right service!!!</h3>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Clasic Valet Parking Service. All rights reserved.<br>clasicgroupsofservice@gmail.com</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
